@@ -9,29 +9,30 @@ The project is a simple AI project to control the presentation slides by the spe
 Important installation steps:
 	
 (Mac)
-	Ensure that Homebrew is installed.
-	Install XCode (this will take a while):
-Go to https://developer.apple.com/download/all/. You are going to need your Apple ID for this step. If you don’t have one, it is free to create one.
-Download “Xcode” in the latest version on the website.
-Download “Command Line Tools for Xcode”.
-Follow the instructions for installing portaudio: https://macappstore.org/portaudio/
-xcode-select --install 
-brew remove portaudio 
-brew install portaudio 
-pip3 install pyaudio
-pip3 install SpeechRecognizer
-pip3 install keyboard
-pip3 install pynput
-pip3 install python-pptx
+	- Ensure that Homebrew is installed.
+	- Install XCode (this will take a while):
+		Go to https://developer.apple.com/download/all/. You are going to need your Apple ID for this step. If you don’t have one, it is free to create one.
+		Download “Xcode” in the latest version on the website.
+		Download “Command Line Tools for Xcode”.
+	- Follow the instructions for installing portaudio: https://macappstore.org/portaudio/
 	
-	
+	Run the following commands:
+	pip3 install pyaudio
+	pip3 install SpeechRecognizer
+	pip3 install keyboard
+	pip3 install pynput
+	pip3 install python-pptx
+
+
 
 (Windows/Linux)
-pip install SpeechRecognizer
-pip install keyboard
-pip install python-pptx
-pip install pipwin 
-pipwin install pyaudio
+	
+	Run the following commands:
+	pip install SpeechRecognizer
+	pip install keyboard
+	pip install python-pptx
+	pip install pipwin 
+	pipwin install pyaudio
 
 --------------------------------------------------------------
 
