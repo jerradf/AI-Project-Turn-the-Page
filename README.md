@@ -15,8 +15,8 @@ Important installation steps:
 		Download “Xcode” in the latest version on the website.
 		Download “Command Line Tools for Xcode”.
 	- Follow the instructions for installing portaudio: https://macappstore.org/portaudio/
-	
 	Run the following commands:
+	
 	pip3 install pyaudio
 	pip3 install SpeechRecognizer
 	pip3 install keyboard
@@ -26,8 +26,8 @@ Important installation steps:
 
 
 (Windows/Linux)
-	
 	Run the following commands:
+	
 	pip install SpeechRecognizer
 	pip install keyboard
 	pip install python-pptx
